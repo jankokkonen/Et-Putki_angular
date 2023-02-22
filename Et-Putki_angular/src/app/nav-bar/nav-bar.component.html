@@ -3,7 +3,11 @@
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="(isHandset$ | async) === false">
-    <mat-toolbar></mat-toolbar>
+    <mat-toolbar>
+      <button mat-icon-button (click)="drawer.toggle()">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-toolbar>
     <mat-nav-list>
       <a mat-list-item href="#">tietoa meistä</a>
       <a mat-list-item href="#">lvi-palvelut</a>
@@ -30,5 +34,3 @@
       <a href="#">ota yhteyttä</a>
     </mat-toolbar>
   </mat-sidenav-content>
-</mat-sidenav-container>
-
