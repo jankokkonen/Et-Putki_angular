@@ -1,8 +1,12 @@
 html, body { 
     height: 100%; 
+    background-color: black;
 }
-body { 
+body {
     margin: 0; 
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('./assets/images/taustakuva1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
 }

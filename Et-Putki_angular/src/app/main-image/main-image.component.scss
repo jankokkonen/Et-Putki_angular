@@ -1,17 +1,15 @@
+
 .main-img img{
     max-width: 1500px;
     width: 95%;
-    margin: 10px auto;
+    margin: 25px auto 0;
     display: block;
     border-radius: 5px;
 }
 
-// .main-image img {
-//     max-width: 500px;
-//     border-radius: 10px;
-//     width: 95%;
-//     max-width: 1700px;
-//     height: 100%;
-//     margin: auto;
-//     display: block;
-// }
+@media (max-width: 960px) {
+    .main-img img{
+        width: 100%;
+        border-radius: 0;
+    }
+}
