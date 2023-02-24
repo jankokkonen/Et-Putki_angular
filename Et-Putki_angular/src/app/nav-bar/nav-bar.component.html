@@ -17,7 +17,7 @@
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar color="primary">
-      <img class="logo" src="../../assets/images/ET-putki-logo.png" alt="">
+      <img class="logo animate__animated animate__fadeIn" style="animation-duration: 4000ms;" src="../../assets/images/ET-putki-logo.png" alt="">
       <span class="spacer"></span>
       <button
         mat-icon-button
@@ -26,11 +26,11 @@
         mat-icon-button
         (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
-        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        <mat-icon aria-label="Side nav toggle icon" class="animate__animated animate__fadeIn" style="animation-duration: 3000ms; animation-delay: 0.1s;">menu</mat-icon>
       </button>
-      <a href="#">tietoa meistä</a>
-      <a href="#">lvi-palvelut</a>
-      <a href="#">galleria</a>
-      <a href="#">ota yhteyttä</a>
+      <a href="#" class="animate__animated animate__fadeIn" style="animation-duration: 3000ms; animation-delay: 0.4s;">meistä</a>
+      <a href="#" class="animate__animated animate__fadeIn" style="animation-duration: 3000ms; animation-delay: 0.3s;">lvi-palvelut</a>
+      <a href="#" class="animate__animated animate__fadeIn" style="animation-duration: 3000ms; animation-delay: 0.2s;">galleria</a>
+      <a href="#" class="animate__animated animate__fadeIn" style="animation-duration: 3000ms; animation-delay: 0.1s;">ota yhteyttä</a>
     </mat-toolbar>
   </mat-sidenav-content>
