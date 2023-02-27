@@ -1,34 +1,37 @@
-<h1>Jätä yhteydenottopyyntö tai pyydä tarjous</h1>
-<div fxLayoutAlign="center center" class="form">
-    <form fxLayout="column" >
-      <mat-form-field appearance="fill">
-        <mat-label>Nimi</mat-label>
-        <input matInput name="name" required>
-      </mat-form-field>
-  
-      <mat-form-field appearance="fill">
-        <mat-label>Puhelin</mat-label>
-        <input matInput name="phone" required>
-      </mat-form-field>
-  
-      <mat-form-field appearance="fill">
-        <mat-label>Sähköposti</mat-label>
-        <input matInput name="email" required>
-      </mat-form-field>
-  
-      <mat-form-field appearance="fill">
-        <mat-label>Osoite</mat-label>
-        <input matInput name="address" required>
-      </mat-form-field>
-  
-      <mat-form-field appearance="fill">
-        <mat-label>Viesti</mat-label>
-        <textarea matInput name="message" required></textarea>
-      </mat-form-field>
-  
-      <div fxLayout="row" fxLayoutAlign="center center">
-        <button mat-raised-button class="contact-btn-form" type="submit">Lähetä</button>
-      </div>
-    </form>
-  </div>
+<div class="form-section">
+  <h1>Jätä yhteydenottopyyntö tai pyydä tarjous</h1>
+    <div fxLayoutAlign="center center" class="form">
+      <form fxLayout="column" >
+        <mat-form-field appearance="fill">
+          <mat-label>Nimi</mat-label>
+          <input matInput name="name" required>
+        </mat-form-field>
+    
+        <mat-form-field appearance="fill">
+          <mat-label>Puhelin</mat-label>
+          <input matInput name="phone" required>
+        </mat-form-field>
+    
+        <mat-form-field appearance="fill">
+          <mat-label>Sähköposti</mat-label>
+          <input matInput name="email" required>
+        </mat-form-field>
+    
+        <mat-form-field appearance="fill">
+          <mat-label>Osoite</mat-label>
+          <input matInput name="address">
+        </mat-form-field>
+    
+        <mat-form-field appearance="fill">
+          <mat-label>Viesti</mat-label>
+          <textarea matInput name="message" required></textarea>
+        </mat-form-field>
+    
+        <div fxLayout="row" fxLayoutAlign="center center">
+          <button mat-raised-button class="contact-btn-form" type="submit">Lähetä</button>
+        </div>
+        
+      </form>
+    </div>
+</div>
   
